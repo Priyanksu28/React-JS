@@ -15,8 +15,7 @@ function App() {
       setCounter(counter + 1)
     }
     
-    console.log("Value Added", counter);
-    
+    console.log("Value Added", counter);    
   }
 
   const removeValue = () => {
@@ -28,7 +27,7 @@ function App() {
     }
   }
 
-  return (
+  return (                
     <>
       <h1>Chai aur Code</h1>
       <h2>Counter Value: {counter}</h2>
