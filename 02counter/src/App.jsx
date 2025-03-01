@@ -12,7 +12,11 @@ function App() {
       setCounter(counter)
     }
     else {
-      setCounter(counter + 1)
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
     }
     
     console.log("Value Added", counter);    
