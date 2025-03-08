@@ -14,7 +14,7 @@ function Card({username, btnText = '4.5'}) {
       <svg
         className="w-8 h-8 sm:w-10 sm:h-10"
         fill="none"
-        stroke="currentColor"
+        stroke="currentColor"       
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
