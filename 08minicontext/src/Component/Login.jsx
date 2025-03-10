@@ -10,7 +10,9 @@ function Login() {
 
     const handleclick = (e) => {
         e.preventDefault()
-        setUser({username, password})
+        setUser({username, password});
+        console.log(`${username}`);
+        
     }
   return (
     <div>
@@ -21,6 +23,6 @@ function Login() {
       <button onClick={handleclick}>Submit</button>
     </div>
   )
-}
+} 
 
 export default Login
