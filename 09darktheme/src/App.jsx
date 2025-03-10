@@ -8,6 +8,7 @@ function App() {
   const [thememode, setthememode] = useState("light")
 
   const darktheme = () => {
+
     setthememode("dark")
   }
 
